@@ -1,0 +1,22 @@
+﻿<Window x:Class="iNTR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iNTR"
+        mc:Ignorable="d"
+        Title="Mi primera ventana" Height="600" Width="900">
+
+    <!-- es un comentarior-->
+    <!-- es un contenedor-->
+    <!-- oredn de margen: left,to, right, bottom-->
+    <StackPanel >
+        <!-- es un texto plano-->
+        <TextBlock TextAlignment="Center" Margin="20,15,20,0">Correo:</TextBlock>
+        <!-- Caja para introducir un texto-->
+        <TextBox Margin="20,15,20,0"></TextBox>
+        <TextBlock TextAlignment="Center" Margin="20,15,20,0">Contraseña:</TextBlock>
+        <TextBox Margin="20,15,20,0"/>
+        <Button Margin="200,15,200,0">Iniciar sesioón</Button>
+    </StackPanel>
+</Window>
